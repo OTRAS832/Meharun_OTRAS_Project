@@ -9,6 +9,7 @@ RUN mvn -B -DskipTests package
 FROM eclipse-temurin:17-jre-jammy
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
-EXPOSE 10000
+EXPOSE 8080
 USER 1000
-CMD ["java","-jar","/app/app.jar"]
+CMD ["java","-jar","app.jar"]
+
