@@ -11,7 +11,7 @@
 	<groupId>com.OTRAS</groupId>
 	<artifactId>OTRAS_Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>OTRAS_Demo</name>
 	<description>OTRAS Government Jobs Demo Project</description>
 	<url/>
